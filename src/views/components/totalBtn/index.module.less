@@ -1,0 +1,29 @@
+.total_btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    .btn_left{
+        display: flex;
+        margin: auto 0 auto 0;
+    }
+    .btn_right{
+        display: flex;
+        .total_text{
+            display: flex;
+            margin: auto 10px auto auto;
+            &__num{
+                display: flex;
+                margin: auto;
+                color: red;
+               :nth-child(1){
+                    font-size: 12px;
+                    margin-right: 5px;
+                }
+                :nth-child(2){
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

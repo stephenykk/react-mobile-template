@@ -1,0 +1,1 @@
+export const SET_SHOP_NUM = "SET_SHOP_NUM"
